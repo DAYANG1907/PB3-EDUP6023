@@ -1,0 +1,23 @@
+
+{
+  "name": "pb3-edup6023",
+  "version": "1.0.0",
+  "description": "PB-3 EDUP6023 Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.pb3.edup6023",
+    "productName": "PB-3 EDUP6023",
+    "win": {
+      "target": "portable"
+    },
+    "artifactName": "PB-3-EDUP6023.${ext}"
+  }
+}
